@@ -1,0 +1,390 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+/* HTML5 tags */
+header,section,footer,aside,nav,article,figure {display:block;}
+
+/*input:focus, */button:focus{
+outline-style: none;
+}
+button{
+cursor:pointer;
+}
+
+.fixed{
+position:fixed;
+background:#fff;
+z-index:100;
+width:100%;
+top:0;
+left:0;
+}
+	nav{
+	height:130px;
+	width:995px;
+	margin:0px auto;
+	font-family:'Open Sans Condensed';
+	}
+		.links{
+		float:right;
+		}
+		#logo{
+		margin:15px 0px 0 5px;
+		float:left;
+		}
+		.button{
+		display:block;
+		padding-left:20px;
+		padding-right:20px;
+		padding-top:50px;
+		height:80px;
+		float:left;
+		font-weight:bold;
+		font-size:21px;
+		text-decoration:none;
+		color:#6b6b70;
+		border-left:solid 1px transparent;
+		border-right:solid 1px transparent;
+		cursor:pointer;
+		}
+		.button:hover{
+		background:#eee; /* Для старых браузров */
+		background: linear-gradient(to bottom, #eee, #fff);
+		color:#b61818;
+		border-color:#cfcfcf;
+		}
+.content{
+position:relative;
+top:130px;
+background:#272745;
+color:#fff;
+}
+	.grid{
+	width:995px;
+	margin:0 auto;
+	position:relative;
+	}
+	header{
+	background:url('../img/headerbg.jpg');
+	padding-top:45px;
+	font-family:'Roboto';
+	height:500px;
+	}
+		header h1{
+		font-size:50px;
+		line-height:45px;
+		}
+		.thin{
+		font-weight:300;
+		font-size:35px;
+		}
+		.column2{
+		position:absolute;
+		left:331px;
+		top:0;
+		width:331px;
+		height:500px;
+		}
+			.why{
+			position:absolute;
+			left:0px;
+			bottom:50px;
+			padding:0 50px;
+			text-align:center;
+			font-size:23px;
+			font-family:'Lobster';
+			}
+			.column2 button{
+			background:transparent;
+			border:none;
+			margin-top:10px;
+			}
+		.column3{
+		position:absolute;
+		right:0;
+		top:0;
+		width:331px;
+		}
+			
+			header form{
+			margin-top:20px;
+			}
+			.phone{
+			font-size:41px;
+			}
+			.header-button{
+			background:#9d1f1d;
+			color:white;
+			border:none;
+			width:100%;
+			height:50px;
+			font-weight:700;
+			font-size:23px;
+			margin:10px 0;
+			border-radius:3px;
+			cursor:pointer;
+			}
+			.header-button:hover{
+			background:#ad1f1d;
+			}
+			.header-benefits{
+			font-weight:700;
+			font-size:21px;
+			margin-bottom:20px;
+			}
+			.header-input{
+			width:310px;
+			background:transparent;
+			height:25px;
+			border:solid 1px #999;
+			border-radius:3px;
+			padding:10px;
+			margin-bottom:20px;
+			color:white;
+			box-shadow:inset 0 0 10px rgba(0,0,0,0.7);
+			}
+	.intro{
+	background:white;
+	height:420px;
+	}
+		.intro .grid *{
+		text-align:center;
+		padding:15px 0px;
+		}
+		.column1{
+		position:absolute;
+		left:0;
+		top:0;
+		}
+			.intro-text{
+			padding:10px 0 20px 0;
+			font-family:'Roboto';
+			font-weight:700;
+			font-size:17px;
+			color:#272745;
+			}
+	#about{
+	font-family:'Roboto';
+	font-weight:300;
+	overflow:hidden;
+	}
+		.title{
+		font-family:'Roboto';
+		margin:0 20px 20px 20px;
+		font-size:38px;
+		font-weight:400;
+		}
+			.title img{
+			position:relative;
+			top:40px;
+			right:20px;
+			}
+		.column23{
+		width:662px;
+		float:right;
+		font-size:20px;
+		}
+			.column23 p{
+			margin:-30px 0 40px 0;
+			}
+		.about-article{
+		position:relative;
+		font-size:25px;
+		padding:25px 0;
+		}
+			.about-article img{
+			position:absolute;
+			top:10px;
+			left:-100px;
+			}
+		.end-row{
+		clear:both;
+		margin-top:50px;
+		position:relative;
+		left:-100px;
+		}
+	#services{
+	overflow:hidden;
+	font-family:'Roboto';
+	font-weight:300;
+	padding-bottom:50px;
+	}
+		#studio-image{
+		position:relative;
+		top:-30px;
+		}
+		.left{
+		float:left;
+		width:311px; /* 331 - padding */
+		padding-right:20px;
+		}
+			.left article{
+			margin:20px 0;
+			overflow:hidden;
+			}
+				.left article img{
+				float:left;
+				margin-right:10px;
+				}
+				.left p span{
+				padding:5px 10px;
+				}
+	#work{
+	background:white;
+	color:#9d1f1d;
+	overflow:hidden;
+	position:relative;
+	}
+		#work .title{
+		margin-bottom:30px;
+		}
+		.item{
+		position:relative;
+		float:left;
+		}
+		.item img{
+		margin:17px;
+		}
+		.item a{
+		display:block;
+		width:161px;
+		height:161px;
+		position:absolute;
+		left:80px;
+		top:95px;
+		border-radius:80px;
+		background:url('../img/work/play.png');
+		}
+		.work45{
+		margin-left:160px;
+		}
+			.work45 .item{
+			margin-top:-80px;
+			}
+		.item:nth-child(n+5){
+		margin-top:-80px;
+		}
+		#work button{
+		width:331px;
+		margin:40px 331px;
+		border-radius:10px;
+		}
+	#why-we{
+	padding-bottom:30px;
+	}
+		#why-we span{
+		font-family:'Roboto';
+		font-weight:300;
+		font-size:35px;
+		}
+		#why-we .column23{
+		margin-bottom:30px;
+		}
+		.cause{
+		float:left;
+		width:311px;
+		text-align:center;
+		font-family:'Roboto';
+		font-weight:300;
+		font-size:25px;
+		margin-top:70px;
+		padding:0px 10px;
+		height:200px;
+		}
+			.cause img{
+			margin-bottom:15px;
+			}
+		#why-we .end-row{
+		margin-top:50px;
+		margin-left:350px;
+		}
+	#recalls{
+	overflow:hidden;
+	}
+		.recall{
+		float:left;
+		width:258px;
+		height:168px;
+		padding:80px 20px;
+		background:url(../img/hexagon.png);
+		margin:0px 20px;
+		color:black;
+		font-family:'Roboto';
+		font-weight:300;
+		font-size:19px;
+		text-align:center;
+		}
+		.recall:nth-child(2){
+		margin-left:300px;
+		}
+		.recall:nth-child(4){
+		position:relative;
+		left:450px;
+		top:-45px;
+		}
+	#contacts{
+	position:relative;
+	background:white;
+	color:#7d7d7d;
+	padding-top:15px;
+	font-family:'Roboto';
+	font-weight:300;
+	overflow:hidden;
+	}
+		#contacts .title{
+		color:#9d1f1d;
+		}
+		.blabla{
+		display:block;
+		width:450px;
+		float:right;
+		margin:0px 40px 30px 0px;
+		font-size:25px;
+		}
+		.adress{
+		margin:150px 0 0 10px;
+		}
+			.adress span:first-child{
+			display:block;
+			color:black;
+			margin-bottom:5px;
+			}
+			.adress img{
+			margin:10px 0px;
+			}
+		#contacts input:not(:last-child){
+		background:transparent;
+		padding:0 20px;
+		margin:5px 10px;
+		height:30px;
+		width:500px;
+		border:solid 1px #aaa;
+		}
+		#contacts input:nth-child(5){
+		height:90px;
+		}
+		#contacts input:last-child{
+		width:100px;
+		height:30px;
+		margin-left:10px;
+		font-size:15px;
+		}
+		#phone-email{
+		position:absolute;
+		top:200px;
+		left:700px;
+		}
+	footer{
+	background:white;
+	text-align:right;
+	color:#aaa;
+	font-family:'Roboto';
+	font-size:13px;
+	padding-bottom:20px;
+	}
+		footer a{
+		text-decoration:none;
+		color:#555;
+		}
